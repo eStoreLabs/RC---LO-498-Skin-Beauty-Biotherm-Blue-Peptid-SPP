@@ -109,6 +109,7 @@ body {
   .es-category {
     padding-left: 15px;
     padding-right: 15px;
+    padding-top: 50px;
     margin-bottom: 50px;
 
     &__items {
@@ -176,7 +177,8 @@ body {
     }
 
     &__item {
-      max-width: 360px;
+      max-width: 366px;
+      max-height: 366px;
     }
 
     &__image {
@@ -794,6 +796,7 @@ body {
       &__items {
         max-width: none;
         justify-content: center;
+        align-items: flex-start;
       }
 
       &__image {

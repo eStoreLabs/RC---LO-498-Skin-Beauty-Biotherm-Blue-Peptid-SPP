@@ -83,6 +83,7 @@ body {
 #es-biotherm.es-biotherm .es-category {
   padding-left: 15px;
   padding-right: 15px;
+  padding-top: 50px;
   margin-bottom: 50px;
 }
 #es-biotherm.es-biotherm .es-category__items {
@@ -148,7 +149,8 @@ body {
   margin: 0 auto;
 }
 #es-biotherm.es-biotherm .es-category-2__item {
-  max-width: 360px;
+  max-width: 366px;
+  max-height: 366px;
 }
 #es-biotherm.es-biotherm .es-category-2__image {
   max-width: 100%;
@@ -710,6 +712,7 @@ body {
   #es-biotherm.es-biotherm .es-category-2__items {
     max-width: none;
     justify-content: center;
+    align-items: flex-start;
   }
   #es-biotherm.es-biotherm .es-category-2__image {
     max-width: 395px;
